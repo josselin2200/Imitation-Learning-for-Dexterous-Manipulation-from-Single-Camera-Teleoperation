@@ -125,26 +125,6 @@ position will make your teleoperation much easier, e.g. similar as Figure 3 in t
    space (e.g., transitioning from state observation to depth image) do not require recollecting data. Instead, simply
    replay the pre-collected simulation states to generate new observations.
 
-## Acknowledgements
-
-We would like to thank the following people for providing valuable feedback when testing the system.
-
-[Jiarui Xu](https://jerryxu.net/), [Crystina Zhang](https://crystina-z.github.io/),
-[Binghao Huang](https://binghao-huang.github.io/), [Jiashun Wang](https://jiashunwang.github.io/),
-[Ruihan Yang](https://rchalyang.github.io/), [Jianglong Ye](https://jianglongye.com/),
-[Yang Fu](https://oasisyang.github.io/), [Jiteng Mu](https://jitengmu.github.io/),
-[Shaowei Liu](https://stevenlsw.github.io/).
-
-We would like to express our gratitude to the authors of [SMPL-X](https://github.com/vchoutas/smplx) for providing the
-hand representation, as well as the
-creators of [FrankMocap](https://github.com/facebookresearch/frankmocap)
-and [MediaPipe](https://developers.google.com/mediapipe/solutions/vision/hand_landmarker) for their amazing
-hand pose detector.
-
-This repository employs the same code structure for simulation environment to that used
-in [DexPoint](https://github.com/yzqin/dexpoint-release).
-
-Thanks [enyen](https://github.com/enyen) for adding the RealSense support in the pull request. 
 
 ## Bibtex
 
