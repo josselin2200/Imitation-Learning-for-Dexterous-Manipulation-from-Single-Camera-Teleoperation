@@ -1,0 +1,17 @@
+natsort
+numpy
+transforms3d
+gym==0.25.2
+imageio
+torch>=1.11.0
+nlopt
+smplx
+opencv-python
+mediapipe
+torchvision
+record3d
+
+[tests]
+pytest
+black
+isort
